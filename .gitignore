@@ -1,0 +1,39 @@
+# Copyright (C) 2018,2023 Mitsubishi Electric Research Laboratories (MERL).
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# MATLAB .gitignore from https://github.com/github/gitignore/blob/main/Global/MATLAB.gitignore
+# Windows default autosave extension
+*.asv
+
+# OSX / *nix default autosave extension
+*.m~
+
+# Compiled MEX binaries (all platforms)
+*.mex*
+
+# Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
+
+# Generated helpsearch folders
+helpsearch*/
+
+# Simulink code generation folders
+slprj/
+sccprj/
+
+# Matlab code generation folders
+codegen/
+
+# Simulink autosave extension
+*.autosave
+
+# Simulink cache files
+*.slxc
+
+# Octave session info
+octave-workspace
+
+# Custom ignores
+.DS_Store
